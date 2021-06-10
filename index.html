@@ -1,124 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    <!-- Google Fonts -->
+    
+    <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
     
     <!-- Local CSS -->
     <link rel="stylesheet" href="./src/css/styles.css">
-	<title>Developer Capstone 1</title>
+    <title>Capstone Project 1</title>
 </head>
 <body>
 
-	<!-- NAVBAR section -->
-	<div class="container-fluid pusher"></div>
-	<nav class=" fixed-top navbar navbar-expand-lg  bg-custom-1">
-	  <a class="navbar-brand prp-txt" href="#">Home</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+<!-- Home -->
+<div class="pusher"></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid ">
+      
+    <div class="" id="navbarSupportedContent">
+        <ul class="d-flex flex-row justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item p-2">
+            <a class="text-light nav-link"  href="#home-section">Home</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="text-light  nav-link" href="#about-section">About</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="text-light  nav-link" href="#project-section">Projects</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class=" text-light nav-link" href="#contact-section">Contacts</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- Fluid Jumbotron -->
+  <div class="jumbotron jumbotron-fluid ">
+    <div class="container-fluid container1 vertical-center justify-content">
+        
+        
+            <h1 class="display-4  center">Ronald Lou Santos</h1>
+            
 
-	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto text-light">
-	      
-	      <li class="nav-item">
-	        <a class="nav-link lavander-txt" href="#about">About</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link lavander-txt" href="#">Projects</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link lavander-txt" href="#contact">Contacts</a>
-	      </li>
-	      </ul>
-	  </div>
-	</nav>
-	<!-- HOME Section -->
-	<div class="jumbotron jumbotron-fluid mb-0">
-	  <div class="container pt-5">
-	  	<div class="d-flex flex-column justify-content-between pt-5">
+            <p class="lead center">Hi, I'm a Fullstack Developer</p>
+        
+    </div>
+  </div>
+<!-- About -->
+<div class="container-fluid bg-dark">
+    
+    <div class="pusher " id="about-section"></div>
+    <div class="pusher"></div>
+    <h1 class="text-center text-light" > About Me</h1>
+    <div class="pusher"></div>
+    <div class="row text-justified" >
+        <div class="col-md-5 col-lg-5 col-sm-12   manual-center p-2 order-sm-1">
+            <img class="img-art" src="./src/images/art-small.jpg" alt="">
+        </div>
+        <div class="col-md-12 col-lg-5 col-sm-12 m-1 p-3 order-sm-2 ">
+            <p class="p-3 text-light">Hi again! I'm your average joe who loves to game and draw in my spare time. By education I should be an engineer right now. But life's weird and I've been a lot of things these past few years. Engineer, Educator, Baker, and now Full Stack Developer. It's been quite the rollercoaster ride.</p>
+        </div>
+   </div>
+   <div class="pusher"></div>
+   <div class="pusher"></div>
+</div>
+<!-- Projects -->
+<div class="container " >
+    <div class="pusher " id="project-section"></div>
+    <div class="pusher"></div>
+    <h1 class="text-center">Projects</h1>
+    <div class="pusher"></div>
+    <div class="center row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col mt-2 ">
+                    <div class="card h-100 p-2 ">
+                        <img src="./src/images/wrench.jpg" class="card-img-top img-fluid rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Capstone Project 1</h5>
+                            <p class="card-text">My first Capstone Project developed during the Zuitt Course.
+                            </p>
+                            <p class="card-text "><a class = "no-decor" href="https://ronaldlousantos.github.io/csp1/" target="_blank">Check it out!</a> </p>
+                        </div>
+                    </div>
+                </div>
+           
+            <div class="col mt-2 ">
+            <div class="card h-100 p-2 ">
+                <img src="./src/images/wrench.jpg" class="card-img-top img-fluid rounded-circle" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Capstone Project 2</h5>
+                <p class="card-text">My second Capstone Project developed during the Zuitt Course - Still a Work in Progress!</p>
+                </div>
+            </div>
+            </div>
+            <div class="col mt-2 ">
+            <div class="card h-100 p-2 ">
+                <img src="./src/images/wrench.jpg" class="card-img-top img-fluid rounded-circle" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Capstone Project 3</h5>
+                <p class="card-text">My third Capstone Project developed during the Zuitt Course. - Still a Work in Progress!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	    <h1 class="display-4 cyan-txt text-center ">Ronald G. Lou Santos Jr.</h1>
-	    <h1 class="h1 cyan-txt lead text-light text-center">Hi, I'm a Fullstack Developer.</h1>
-	    </div>
-	  </div>
-	</div>
 
-	<!--ABOUT Section  -->
+</div>
+<!-- Contacts -->
+<div class="container " id="contact-section">
+        <div class="pusher " id="contact-section"></div>
+        <div class="pusher"></div>
+        <h1 class="text-center">Contacts</h1>
+        <div class="pusher"></div>
+    <div class="row justify-content-around flex-wrap form-flex  m-1 ">
+        <div class="form col">
+            <form class="border border-black">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control input-contact" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control  input-contact" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form></div>        
+        <div class="google col">
+                <div class="border pd-2 m-1 mapouter "><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bayombong%20nueva%20vizcaya&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmoviesto.to</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+        </div>
+    </div> 
+    <div class="pusher"></div>
+</div>
+<!-- Footer -->
+<section class = "bg-dark"> 
+        
+    <div class=" p-2 d-flex flex-row justify-content-end  align-items-end">
+        <h4 class = "p-3 pb-0 m-0 pb-0">Follow me on:</h4>
+        <a href="https://www.facebook.com/profile.php?id=100049010622891"><img class ="svg p-2 pb-0" src="./src/svg/facebook.svg" alt="Facebook Link"></a>
+        <img class ="svg p-2  pr-3 pb-0 m-0" src="./src/svg/google.svg" alt="Google Link">
+        
 
-	<div class="container-fluid bg-custom-2 p-3 about-sec" id="#about">
-		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 center ">
-				<h4 class="text-center lavander-txt">About Me</h4>
-			</div>
-			<div class="col-md-3"></div>
-		</div>
-		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 center lavander-txt ">
-				<p class="h6 p-3 center">Hi again! I'm your average joe who loves to game and draw in my spare time. 
-				By education I should be an engineer right now. But life's weird and I've been a lot of things these past few years. Engineer, Educator, Baker, and now Full Stack Developer. It's been quite the rollercoaster ride.</p>
-			</div>
-			<div class="col-md-3"></div>
-		</div>
-	</div>
+    </div>
+    <div class="pusher"></div>
+</section>
 
 
-	<!-- Project Cards -->
-	<div class="container-fluid bg-secondary p-3 project-sec">
-		<h3 class="text-center lavander-txt">Projects</h3>
-		<p></p>	
-			
-
-		<div class="d-flex card-deck ">
-		  	<div class="card p-3 m5 bg-custom-2">
-		  		<div class="card-img">	
-		   			<img src="..." class="card-img-top" alt="...">
-		   		</div>
-		    	<div class="card-body lavander-txt">
-			   	    <h5 class="card-title">Capstone Project 1 - FrontEnd</h5>
-				    <p class="card-text">My first Capstone Project developed during the Zuitt Course.</p>
-			    	
-			    </div>
-			</div>
-			<div class="card p-3 m5 bg-custom-2">
-		   		<div class="card-img">	
-		   			<img src="..." class="card-img-top" alt="...">
-		   		</div>
-		    	<div class="card-body lavander-txt">
-			   	    <h5 class="card-title">Capstone Project 2 - Backend</h5>
-				    <p class="card-text">My second Capstone Project developed during the Zuitt Course - Still a Work in Progress!/p>
-			    	
-			    </div>
-			</div>
-			<div class="card p-3 m5 bg-custom-2">
-		   		<div class="card-img">	
-		   			<img src="..." class="card-img-top" alt="...">
-		   		</div>
-		   		<div class="card-body lavander-txt">
-			   	    <h5 class="card-title">Capstone Project 3 - Full Stack</h5>
-				    <p class="card-text">My First Capstone Project developed during the Zuitt Course. - Still a Work in Progress!</p>
-			    	
-			    </div>
-			</div>
-			</div>
-						</div>
-
-		<div class="container-fluid bg-custom-2 p-3 contact-sec">
-			<h2>Contacts</h2>
-		</div>
-		
-		<!-- Bootstrap CDN -->
-	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- ------------------------------------------------------- -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
+    
 </body>
 </html>
