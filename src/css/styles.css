@@ -1,0 +1,70 @@
+* {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.pusher {
+	height:  8vh;
+	background-color: rgb(10,10,10);
+	margin:  0;
+	padding: 0;
+}
+.jumbotron {
+	height:  92vh;
+	background-image: url("https://images.unsplash.com/Ys-DBJeX0nE.JPG?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+
+}
+
+.home-sec {
+		/*height: ;*/
+}
+/*.about-sec {
+height: 30vh;
+
+}*/
+
+.project-sec {
+		/*height: 30vh;*/
+}
+.contact-sec {
+		height: 60vh;
+}
+
+
+
+.card-img {
+	margin: auto;
+	border:  1px solid white;
+	width: 250px;
+	height:250px;
+}
+
+/*Text color utilities*/
+
+
+.prp-txt {
+	color:#C876FF; 
+
+}
+.lavander-txt {
+	color: #F6B3E5;
+}
+
+.cyan-txt {
+	color: #FCFFFF;
+}
+
+/*Background color utilities*/
+
+
+.bg-custom-1 {
+	height:  8vh;
+	background-color: rgba(10,10,10, 0.8);
+	/*color: #7232F2;*/
+}
+
+.bg-custom-2 {
+	background-color: #101010;
+}
+
+.bg-custom-3
